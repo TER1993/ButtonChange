@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <Button
+        android:text="@string/button_show"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:id="@+id/btn_show"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="@string/button_miss"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:id="@+id/btn_miss"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="@string/vibrator_open"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:id="@+id/btn_vibrator_open"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="@string/vibrator_close"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:id="@+id/btn_vibrator_close"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="@string/black"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:id="@+id/btn_color_black"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="@string/blue"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:id="@+id/btn_color_blue"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="@string/cyan"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:id="@+id/btn_color_cyan"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="@string/pink"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:id="@+id/btn_color_pink"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="@string/purple"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:id="@+id/btn_color_purple"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="@string/red"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:id="@+id/btn_color_red"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="@string/yellow"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:id="@+id/btn_color_yellow"
+        android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    </LinearLayout>

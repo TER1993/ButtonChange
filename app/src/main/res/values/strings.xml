@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">悬浮按钮设置</string>
+    <string name="button_show">显示悬浮按钮</string>
+    <string name="button_miss">隐藏悬浮按钮</string>
+    <string name="black">黑色</string>
+    <string name="blue">蓝色</string>
+    <string name="cyan">青色</string>
+    <string name="pink">粉色</string>
+    <string name="purple">紫色</string>
+    <string name="red">红色</string>
+    <string name="yellow">黄色</string>
+    <string name="vibrator_open">开启震动</string>
+    <string name="vibrator_close">关闭震动</string>
+</resources>
