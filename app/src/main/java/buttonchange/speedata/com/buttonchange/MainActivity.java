@@ -1,5 +1,6 @@
 package buttonchange.speedata.com.buttonchange;
 
+import android.content.ComponentName;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -131,6 +132,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
             case R.id.btn_show:
+
+                Intent intent = new Intent(Intent.ACTION_MAIN);
+                intent.addCategory(Intent.CATEGORY_LAUNCHER);
+                ComponentName cn = new ComponentName("com.android.thefloatbuttonscan", "com.android.thefloatbuttonscan.MainActivity");
+                intent.setComponent(cn);
+                startActivity(intent);
+
                 //创建Intent对象
                 Intent intent8 = new Intent();
                 //设置Intent的Action属性
